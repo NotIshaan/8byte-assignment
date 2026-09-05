@@ -1,0 +1,8 @@
+environment      = "staging"
+instance_type    = "t3.micro"
+db_instance_class = "db.t3.micro"
+db_name          = "appdb"
+db_username      = "appadmin"
+db_password      = "8bytepass"
+alert_email      = "ishaanworks24@gmail.com"
+ecr_image_url    = "will fill after terraform apply"

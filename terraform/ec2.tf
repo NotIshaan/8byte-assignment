@@ -77,6 +77,7 @@ resource "aws_launch_template" "app" {
     secret_arn = aws_secretsmanager_secret.db.arn
     region     = var.aws_region
     ecr_url    = aws_ecr_repository.app.repository_url
+    project_name= var.project_name
   }))
 
   tag_specifications {
